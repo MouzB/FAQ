@@ -1,0 +1,26 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+  font-size: 3rem;
+}
+
+.description {
+  display: none;
+  text-align: center;
+}
+
+
+.title.active + .description {
+  display: block;
+}
+
+.title {
+  cursor: pointer;
+  margin: 30px;
+  text-align: center;
+}
+
+.title.active {
+  font-weight: bold;
+  color: green;
+}

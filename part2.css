@@ -1,0 +1,29 @@
+html {
+    background: #f2f1f4;
+    color: #19171c;
+    font-size: 3rem;
+  }
+  
+  .title {
+    background-color: darkslategrey;
+    border-bottom: 1px solid green;
+    cursor: pointer;
+  }
+  
+  .title:hover {
+    opacity: 0.5;
+  }
+  
+  .description {
+    display: block;
+    display: none;
+    text-align: center;
+  }
+  
+  .description.active {
+    padding: 10px;
+  }
+  
+  .active {
+    display: block;
+  }
